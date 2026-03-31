@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecting to VipeRun</title>
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="refresh" content="0; url=https://apps.apple.com/app/id6759920719" />
+  <script>
+    window.location.replace("https://apps.apple.com/app/id6759920719");
+  </script>
+</head>
+<body>
+  <p>Redirecting to the App Store...</p>
+  <p><a href="https://apps.apple.com/app/id6759920719">Tap here if you're not redirected.</a></p>
+</body>
+</html>
