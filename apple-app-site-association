@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["UNB3YS9PAB.co.chandrashrestha.viperun"],
+        "paths": ["/viperun-site/open", "/viperun-site/open/*"]
+      }
+    ]
+  }
+}

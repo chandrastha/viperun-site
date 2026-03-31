@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open VipeRun</title>
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="refresh" content="2; url=https://apps.apple.com/app/id6759920719" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #eff6ff;
+      background:
+        radial-gradient(circle at top, rgba(74, 222, 128, 0.18), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.24), transparent 36%),
+        linear-gradient(160deg, #06131b 0%, #0b1f2a 45%, #0f172a 100%);
+    }
+
+    .card {
+      width: min(100%, 520px);
+      border-radius: 28px;
+      padding: 32px 28px;
+      text-align: center;
+      background: rgba(10, 18, 30, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    .badge {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 18px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      font-size: 2rem;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.05;
+      margin-bottom: 12px;
+      letter-spacing: -0.04em;
+    }
+
+    p {
+      color: rgba(226, 232, 240, 0.84);
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 184px;
+      padding: 13px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: transform 160ms ease, opacity 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      opacity: 0.96;
+    }
+
+    .button.primary {
+      color: #081018;
+      background: linear-gradient(135deg, #7dd3fc 0%, #86efac 100%);
+    }
+
+    .button.secondary {
+      color: #eff6ff;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .note {
+      margin-top: 18px;
+      font-size: 0.92rem;
+      color: rgba(191, 219, 254, 0.84);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">🐍</div>
+    <h1>Opening VipeRun</h1>
+    <p>If VipeRun is installed and Universal Links are configured, iPhone will open the app directly.</p>
+    <p>If not, you'll be redirected to the App Store in a moment.</p>
+
+    <div class="links">
+      <a class="button primary" href="https://apps.apple.com/app/id6759920719">Download on the App Store</a>
+      <a class="button secondary" href="../Viperun.html">Back to VipeRun</a>
+    </div>
+
+    <p class="note">Invite link: https://chandrastha.github.io/viperun-site/open/</p>
+  </main>
+</body>
+</html>
